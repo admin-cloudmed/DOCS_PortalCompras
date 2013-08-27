@@ -660,12 +660,17 @@ p.note {
 		    -ms-transition: all 300ms ease-out; 
 		     -o-transition: all 300ms ease-out;
 		        transition: all 300ms ease-out;
+	}	
+	.perfil h1 {
+		font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+		font-size: 22px;
 	}		
 	.perfil img {
 		margin:auto;
-		display:block;		
+		display:block;	
+		border: 1px dashed black;
 		-webkit-border-radius: 30px;
-		border-radius: 30px;		
+		border-radius: 300px;		
 		cursor: pointer;
 		
 		-webkit-transform: scale(.9);
@@ -681,10 +686,11 @@ p.note {
 		        transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
 	}	
 	.perfil:hover {
-		background-color: #aaa;
+		background-color: #AFCEE2;
 		-webkit-border-radius: 30px;
 		border-radius: 30px;		
 		cursor: pointer;
+		color:green;
 	}	
 	.perfil:hover img {
 		-moz-transform: scale(1);
