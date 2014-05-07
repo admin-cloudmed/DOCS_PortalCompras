@@ -62,7 +62,7 @@ nav, ul, li, a  {margin: 0; padding: 0;}
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
 }
 .active{
-  background-color: #D8DFEA;
+  background-color: #A2A4A5;
 }
   
   
@@ -795,7 +795,7 @@ p.note {
 
 	.perfil {
 		background-color: #eee;
-		width: 250px;
+		width: 200px;
 		padding:2em 1em 1em 1em; 		
 		text-align: center;	
 		cursor: pointer;
