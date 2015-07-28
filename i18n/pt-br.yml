@@ -18,7 +18,7 @@
       title: "Visão geral do serviço Portal de Compras"
       table_of_contents:
         index: "Índice"
-        how_it_works: "O que é?"
+        how_it_works: "O que é o portalcompras.io?"
         features_yield: "Funcionalidades e Finalidades."
         who_uses: "Quem Pode Utilizar?"
       how_it_works:
@@ -40,9 +40,9 @@
         feature_13: "Relatório e histórico, por perfil, de todas as etapas do processo a ser gerenciado;"
         feature_14: "Visualização de consultas, exames e laudos, tornando o procedimento mais rápido, beneficiando o paciente;"
         feature_15: "Gestão do conhecimento e informações para planejamento e tomada de decisões;"
-        feature_16: "Ampla manutenção dos itens cadastrados, visando alinhar o melhor preço e qualidade, bem como o controle de validade do código ANVISA dos materiais."
+        feature_16: "Ampla manutenção dos itens cadastrados, visando alinhar o melhor preço/qualidade, bem como o controle e validade dos materiais."
       who_uses:
-        paragraph_1: "Nossa solução está no mercado há cinco anos, sendo atualmente utilizada pela Unimed Intrafederativa Nordeste Paulista e suas singulares, trabalhando na mais alta transparência, segurança e facilidade. Potenciais forças que podem utilizar nossa aplicação, são empresas como:"
+        paragraph_1: "Nossa solução está no mercado há mais de oito anos, trabalhando na mais alta transparência, segurança e facilidade. Potenciáis forças que podem utilizar nossa aplicação, são empresas como:"
         item_1: "Operadores de Saúde;"
         item_2: "Hospitais;"
         item_3: "Fornecedores de materiais OPME;"

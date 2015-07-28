@@ -1,28 +1,191 @@
 <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+	<br />
+	<br />
+	<br />
+	<div id="perfis" class="wrap" style="margin-top:-60px;margin-left:auto;margin-right:auto;">
+		<h1 style="font-family: 'Exo 2', ''Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, 'AppleGothic'', sans-serif;'">
+			Documentação online do serviço <a href="www.portalcompras.io">portalcompras.io</a>
+		</h1>
+		<ul>
+			<h3 style="font-family: 'Exo 2', ''Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, 'AppleGothic'', sans-serif;'">Escolha seu perfil</h3>
+			<a href="http://docscomprador.portalcompras.io">
+				<li class="perfil" style="background-image: url(../img/comprador.png);background-repeat: no-repeat;;background-position: center; width: 140px ; height: 122px;">
+					<h1 >OPME</h1>
+				</li>
+			</a>
+			<a href="http://docscompradormatmed.portalcompras.io">
+				<li class="perfil"  style="background-image: url(../img/comprador.png);background-repeat: no-repeat;;background-position: center; width: 140px ; height: 122px;">
+					<h1 >MATMED</h1>
+				</li>
+			</a>
+			<a href="http://docsfornecedor.portalcompras.io">
+				<li class="perfil" style="background-image: url(../img/vendedor.png);background-repeat: no-repeat;;background-position: center; width: 140px ; height: 122px;">
+					<h1 >Fornecedor</h1>
+				</li>
+			</a>
+		</ul>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<!--O que é? -->
+		<div id ="how_it_works" > &nbsp </div>
+		<h2 id="how_it_works_inner">
+			<%= I18n.t("portalopme.index.table_of_contents.how_it_works") %>
+		</h2>
+		<p style="text-indent: 3em; text-align: justify;">
+			<%= I18n.t("portalopme.index.how_it_works.paragraph_1") %>
+		</p>
 
-<br /><br /><br />
-<div class="wrap" style="margin-top:-60px;margin-left:auto;margin-right:auto;">	 
-<h1 style="font-family: 'Exo 2', ''Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, 'AppleGothic'', sans-serif;'">- Escolha seu perfil -</h1>
-	<ul>
-		<a href="http://docscomprador.portalcompras.io">
-			<li class="perfil" >
-				<img src="/img/comprador.png"   style="width: 100px; height: 100px"/>​
-				<h1 >OPME</h1>
-			</li>		
-		</a>
-		<a href="http://docscompradormatmed.portalcompras.io">
-			<li class="perfil" >
-				<img src="/img/comprador.png"   style="width: 100px; height: 100px"/>​
-				<h1 >MATMED</h1>
-			</li>		
-		</a>
-		<a href="http://docsfornecedor.portalcompras.io">
-			<li class="perfil" >
-				<img src="/img/vendedor.png" style="width: 100px; height: 100px"/>​
-				<h1 >Fornecedor</h1>
-			</li>	
-		</a>		
-	</ul>
-</div>
-<br /><br /><br /><br /><br /><br />
+		<!-- Quem usa -->
+		<div id ="who_uses" > &nbsp </div>
+		<h2 id="who_uses_inner">
+			<%= I18n.t("portalopme.index.table_of_contents.who_uses") %>
+		</h2>
+		<p style="text-indent: 3em; text-align: justify;">
+			<%= I18n.t("portalopme.index.who_uses.paragraph_1") %>&nbsp<%= I18n.t("portalopme.index.who_uses.item_1") %>&nbsp<%= I18n.t("portalopme.index.who_uses.item_2") %>&nbsp<%= I18n.t("portalopme.index.who_uses.item_3") %>&nbsp<%= I18n.t("portalopme.index.who_uses.item_4") %> etc..
+		</p>
+		<!--<div class="row-fluid">
+			<p>
+				<li>
+					<strong>
+						<%= I18n.t("portalopme.index.who_uses.item_1") %>
+					</strong>
+				</li>
+			</p>
+			<p>
+				<li>
+					<strong>
+						<%= I18n.t("portalopme.index.who_uses.item_2") %>
+					</strong>
+				</li>
+			</p>
+			<p>
+				<li>
+					<strong>
+						<%= I18n.t("portalopme.index.who_uses.item_3") %>
+					</strong>
+				</li>
+			</p>
+			<p>
+				<li>
+					<strong>
+						<%= I18n.t("portalopme.index.who_uses.item_4") %>
+					</strong>
+				</li>
+			</p>
+		</div>-->
+
+		<!--Funcionalidades e Finalidades -->
+		<div id ="features_yield" > &nbsp </div>
+		<h2 id="features_yield_inner">
+			<%= I18n.t("portalopme.index.table_of_contents.features_yield") %>
+		</h2>
+		<p style="text-indent: 3em; text-align: justify;">
+			<%= I18n.t("portalopme.index.features_yield.paragraph_1") %>
+		</p>
+		<div class="row-fluid">
+			<br />
+			<p>
+				<strong>
+					<%= I18n.t("portalopme.index.features_yield.feature_1") %>
+				</strong>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_2") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_3") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_4") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_5") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_6") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_7") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_8") %>
+				</li>
+			</p>
+		</div>
+		<br />
+		<br />
+		<div class="row-fluid">
+			<p>
+				<strong>
+					<%= I18n.t("portalopme.index.features_yield.feature_9") %>
+				</strong>
+			</p>
+
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_10") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_11") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_12") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_13") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_14") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_15") %>
+				</li>
+			</p>
+			<p>
+				<li>
+					•<%= I18n.t("portalopme.index.features_yield.feature_16") %>
+				</li>
+			</p>
+		</div>
+
+
+
+	</div>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
